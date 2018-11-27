@@ -1,0 +1,45 @@
+{
+  "name": "notes-md-web-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook:start": "start-storybook -p 9009 -s public"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "emotion": "9.2.12",
+    "emotion-theming": "9.2.9",
+    "lodash.get": "4.4.2",
+    "lodash.has": "4.5.2",
+    "lodash.isempty": "4.4.0",
+    "lodash.isobject": "3.0.2",
+    "lodash.noop": "3.0.1",
+    "lodash.orderby": "4.6.0",
+    "mineral-ui": "0.55.0",
+    "mineral-ui-icons": "0.5.0",
+    "prop-types": "15.6.2",
+    "react": "16.6.3",
+    "react-dom": "16.6.3",
+    "react-emotion": "9.2.12",
+    "react-markdown": "4.0.4",
+    "react-scripts": "2.1.1",
+    "ulid": "2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@storybook/addon-actions": "4.0.12",
+    "@storybook/addons": "4.0.12",
+    "@storybook/react": "4.0.12",
+    "babel-loader": "^8.0.4",
+    "prettier": "1.15.3"
+  }
+}
